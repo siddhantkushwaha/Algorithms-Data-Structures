@@ -1,3 +1,11 @@
+/*
+    Insertion Sort
+    a. Sorting algorithm
+    b. Comparsion based
+    c. Time - O(n^2)
+    d. Space - O(n)
+*/
+
 #include <iostream>
 #include <vector>
 
