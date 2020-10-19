@@ -16,8 +16,8 @@ using namespace std;
         cout << a << ' '; \
     cout << '\n';
 
-void sort(vector<int> &arr)
-{
+void sort(vector<int> &arr) {
+    
     int n = arr.size();
     for (int i = 0; i < n; i++) {
         for (int j = i + 1; j < n; j++) {
@@ -28,8 +28,8 @@ void sort(vector<int> &arr)
     }
 }
 
-int main()
-{
+int main() {
+    
     vector<int> arr = {1, 4, -1, 0, 23, 12, 78};
     sort(arr);
 
