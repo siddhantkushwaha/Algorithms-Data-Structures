@@ -33,8 +33,8 @@ void sort(vector<int> &arr) {
     }
 }
 
-int main()
-{
+int main() {
+    
     vector<int> arr = {1, 4, -1, 0, 23, 12, 78};
     sort(arr);
 
