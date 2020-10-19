@@ -11,7 +11,10 @@
 
 using namespace std;
 
-#define printarr for (auto a : arr) cout << a << ' '; cout << '\n';
+#define printarr          \
+    for (auto a : arr)    \
+        cout << a << ' '; \
+    cout << '\n';
 
 void sort(vector<int> &arr) {
     int n = arr.size();
